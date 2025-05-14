@@ -33,8 +33,8 @@ safe_step(library(SeuratWrappers),"load SeuratWrappers")
 report_memory("libs loaded")
 
 # --- Paths & cell types ---
-input_file    <- "/mnt/NFS/pisces/chlu0571/10XSC/cellranger/cust_pseudo/rds/human_ncku_pdac_scRNA_merge_seurat4_20241121.rds"
-output_folder <- "/mnt/NFS/pisces/chlu0571/10XSC/cellranger/cust_pseudo/trajectory_results_merged"
+input_file    <- "/mnt/NFS/pisces/chlu0571/10XSC/cellranger/sample.rds"
+output_folder <- "/mnt/NFS/pisces/chlu0571/10XSC/cellranger/trajectory_results_merged"
 
 # Make sure this directory exists and is writable!
 safe_step({
